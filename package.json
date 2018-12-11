@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "babel-node index.js --presets env,es2016,stage-2"
+    "start": "babel-node index.js --presets env,es2016,stage-2"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "request": "^2.88.0",
     "snoostorm": "0.0.5",
     "snoowrap": "^1.15.2"
   }
