@@ -19,9 +19,9 @@ const submissionStream = client.SubmissionStream({
 });
 
 submissionStream.on("submission", (post) => {
-  console.log(`New post! ${post.title}`);
+  console.log(`New post! ${post.id}`);
     request.head(post.url, function(err, res, body){
-        request(post.url).pipe(fs.createWriteStream(`${dir}/${post.title}_${post.id}.png`)).on('close', ()=>{console.log(`Downloaded ${post.title}`)});
+        request(post.url).pipe(fs.createWriteStream(`${dir}/${post.title}_${post.id}.png`)).on('close', ()=>{console.log(`Downloaded ${post.id}`)});
     });
 });
 
