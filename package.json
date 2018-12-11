@@ -1,0 +1,33 @@
+{
+  "name": "hmmm-saver",
+  "version": "1.0.0",
+  "description": "Save Images from /r/hmmm to your PC/Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "babel-node index.js --presets env,es2016,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrARM/hmmm-saver.git"
+  },
+  "keywords": [
+    "reddit",
+    "memes",
+    "hmmm"
+  ],
+  "author": "MrARM",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MrARM/hmmm-saver/issues"
+  },
+  "homepage": "https://github.com/MrARM/hmmm-saver#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "snoostorm": "0.0.5",
+    "snoowrap": "^1.15.2"
+  }
+}
