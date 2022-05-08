@@ -29,6 +29,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "request": "^2.88.0",
     "snoostorm": "0.0.5",
-    "snoowrap": "^1.15.2"
+    "snoowrap": "^1.23.0"
   }
 }
